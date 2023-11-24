@@ -1,0 +1,218 @@
+body,
+h1 h2,
+h3,
+ul,
+footer {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Basic styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(200, 200, 200);
+
+}
+
+
+header {
+    background-color: #1b1a1a;
+    color: rgb(241, 219, 219);
+    padding: 20px;
+    text-align: center;
+    font-size: x-large;
+
+
+}
+
+h1 {
+    color: black margin-left;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    align-items: center;
+
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.profile-image {
+
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 300px;
+    height: 300px;
+    border-radius: 40%;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start;
+
+
+}
+
+.home-image {
+    width: 400px;
+    height: 400px;
+}
+
+.hidden {
+    font-family: Cochin;
+    position: absolute;
+    padding-top: 300px;
+    font-size: x-large;
+}
+
+.about-text {
+    width: 30%;
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: justify;
+    transition: color 0.3s ease-in-out;
+    background-color: #e0d9d9;
+    border: 10px solid rgba(39, 209, 218, 0.07);
+    padding: 8px;
+
+}
+
+.about-text:hover {
+
+    color: rgb(51, 123, 76);
+    /* Example color change on hover */
+
+}
+
+.why-me {
+    font-size: medium;
+    width: 30%;
+    margin-left: 50px;
+    margin-top: 30px;
+    text-align: justify;
+    transition: color 0.3s ease-in-out;
+    background-color: #e0d9d9;
+    border: 10px solid rgba(39, 209, 218, 0.07);
+    padding: 8px;
+
+}
+
+.why-me :hover {
+    color: rgb(51, 123, 76);
+}
+
+.edu {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+
+.flex-container {
+    display: flex;
+}
+
+
+
+.certification-list {
+    margin-left: 200px;
+    font-size: large;
+
+}
+
+.skills-list {
+
+    margin: 20px;
+    font-size: large;
+    transition: color 0.3s ease-in-out;
+
+}
+
+
+.projects {
+    width: 60%;
+    margin: 0 auto;
+    text-align: justify;
+    transition: color 0.3s ease-in-out;
+    background-color: #e0d9d9;
+    border: 10px solid rgba(39, 209, 218, 0.07);
+    padding: 8px;
+
+
+}
+
+.skill-pic {
+    float: left;
+    margin-right: 40px;
+    border-radius: 30px;
+
+
+}
+
+footer {
+
+    background-color: #191919;
+    color: rgb(255, 255, 255);
+
+    text-align: center;
+    padding: 0;
+
+}
+
+.speech-1 {
+    width: 50%;
+    margin-top: 40px;
+    text-align: justify;
+
+}
+
+.map {
+    width: 50%;
+    margin: 20px;
+    padding: 20px;
+    text-align: justify;
+    margin-left: 300px;
+
+}
+
+.speech-1 {
+    margin-left: 400px;
+    transition: color 0.3s ease-in-out;
+    background-color: #e0d9d9;
+    border: 10px solid rgba(39, 209, 218, 0.07);
+    padding: 8px;
+}
+
+@media screen and (min-width: 768px) {
+    /* Add specific styles for tablets (landscape) */
+}
+
+/* Adjust styles for small desktops */
+@media screen and (min-width: 992px) {
+    /* Add specific styles for small desktops */
+}
+
+/* Adjust styles for medium-sized desktops and larger */
+@media screen and (min-width: 1200px) {
+    /* Add specific styles for medium-sized desktops and larger */
+}
